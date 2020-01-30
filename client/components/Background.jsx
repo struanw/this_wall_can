@@ -13,7 +13,7 @@ class Background extends React.Component {
 
   componentDidMount () {
     setTimeout(this.switch, 2000 )
-   setInterval(this.refresh, 3000 ) 
+   setInterval(this.refresh, 4000 ) 
    setInterval(this.add, 6000 ) 
   }
 
