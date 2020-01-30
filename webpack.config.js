@@ -8,11 +8,13 @@ module.exports = {
   },
   mode: 'development',
   module: {
-    rules: [{
+    rules: [
+      {
       test: /\.jsx?$/,
       loader: 'babel-loader',
       exclude: /node_modules/
-    }]
+    },  { test: /\.jpg$/, use: 'file-loader' }
+  ]
   },
   resolve: {
     extensions: ['.js', '.jsx']
