@@ -1,4 +1,4 @@
-# Retail Site - Struan Wall
+#This Wall Can  - Struan Wall
 
 A simple site to practice React state changes, learn hooks & styled components. Plus try to implent various unique animations and share a bit about me.
 
