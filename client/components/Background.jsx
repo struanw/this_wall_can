@@ -1,8 +1,7 @@
 import React from 'react'
 import logo from '../../server/public/cant_image.jpg'
 import second from '../../server/public/can_image.jpg'
-import mushroom from '../../server/public/mushroom.jpg'
-//import '../../server/public/main.css'
+//import mushroom from '../../server/public/mushroom.jpg'
 
 class Background extends React.Component {
 
