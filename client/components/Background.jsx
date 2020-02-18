@@ -2,12 +2,14 @@ import React from 'react'
 import logo from '../../server/public/cant_image.jpg'
 import second from '../../server/public/can_image.jpg'
 //import mushroom from '../../server/public/mushroom.jpg'
+import About from './About.jsx'
 
 class Background extends React.Component {
 
   state = {
     logoVisible: true,
-    sndImage: false
+    sndImage: false,
+    users: { }
   }
 
   componentDidMount () {
@@ -40,12 +42,17 @@ add = () => {
 
 render () {
     return (
-        <>
+        <div>
+  
+
             {this.state.logoVisible && <img className='Background' src={logo} alt='' />}
             {this.state.sndImage && <img className='Background' src={second} alt='' />}
            {/* {this.state.mushpic && <img className='Background' src={mushroom} alt='' />} */}
-        </> 
        
+           <div><About /></div>
+       
+       
+        </div> 
       )
     }
 }

@@ -2,8 +2,34 @@
 
   min-height: 100%;
   min-width: 100%;
+ 
 	
   width: 100%;
   height: auto;
-	
 }
+
+.example{
+  position:relative;
+  padding:0;
+  font-size: 40px;
+  display:block;
+  cursor:pointer;
+  }
+
+  .content {
+    opacity:0;
+    font-size: 5px;
+    position:absolute;
+    top:0;
+    left:0;
+    color:#1c87c9;
+    background-color:rgba(200,200,200,0.5);
+    width:300px;
+    height:300px;
+  }
+  .example .content:hover { opacity:1; }      
+  .example .content .text {
+  height:0;
+  opacity:1;
+
+  }
